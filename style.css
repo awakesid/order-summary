@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.prime{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: white;
+    height: 550px;
+    width: 370px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    position: absolute;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+.hero{
+    width:100%;
+    height:33%; 
+    border-radius: 15px 15px 0 0;
+}
+.back{
+    position: absolute;
+    top: -100px;
+    width: 100%;
+}
+body{
+    background-color:  hsl(225, 100%, 94%);
+}
+@media all and (max-width: 376px){
+    body{background-image:url(images/pattern-background-mobile.svg);
+    }
+    .main{
+        width: 340px;
+    }
+    
+
+}
+.heading{
+    position: absolute; 
+    top:216.5px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.maintext{
+    position: absolute;
+    top: 265.5px;
+    font-size: small;
+    color:  hsl(224, 23%, 55%);
+}
+.money{
+    background-color: violet;
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    bottom: 139px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color:  hsl(225, 100%, 98%)   
+}
+.music{
+    position: absolute;
+    left: 10px;
+    transform: scale(76%);
+
+}
+.price{
+    position: absolute;
+    left: 65px;
+    
+}
+.ap{
+    font-size: small;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+.change{
+    position: absolute;
+    right: 25px;
+    font-size: small;
+    font-weight: 700;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+.change:hover{
+    color: hsl(256, 83%, 61%);
+    cursor: pointer;
+    text-decoration: none;
+}
+.proceed{
+    background-color: yellow;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    bottom: 74px;   
+    border-radius: 7px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: rgba(156, 140, 247, 0.507) 0px 15px 20px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.proceed:hover{
+    background-color: hsl(256, 83%, 61%);
+    cursor: pointer;
+}
+
+
+.payment{
+    font-size: small;
+    font-weight: 700;
+   color: white;
+}
+.cancel{
+    position: absolute;
+    bottom:37px;
+    font-size: small;
+    font-weight: 700;
+    color:  hsl(224, 23%, 55%);
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+.attribution{
+    position: absolute;
+    bottom: 20px;
+}
+
+
